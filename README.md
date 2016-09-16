@@ -6,7 +6,7 @@ node-red-contrib-ambientはAmbientにデーターを送信するNode-REDノー�
 
 ## インストール
 
-Node-REDルートディレクトリーで次のようにインストールしてください。
+Node-REDのルートディレクトリーで次のようにインストールしてください。
 
 ```sh
 $ npm install node-red-contrib-ambient
@@ -17,18 +17,17 @@ $ npm install node-red-contrib-ambient
 事前に[Ambient](https://ambidata.io)にユーザー登録(無料)し、チャネルを生成してください。
 
 AmbientノードをNode-REDにインストールすると、パレットの「advanced」カテゴリーにAmbientノードが追加されます。
-ノードをワークスペースにドラッグし、ダブルクリックしてデーターを送信するAmbientチャネルのチャネルIdとライトキーを設定してください。
+ノードをワークスペースにドラッグし、ダブルクリックして、データーを送信するAmbientチャネルのチャネルIdとライトキーを設定してください。
 
 ## Ambientへのデーター送信
 
 Ambientには次のようなJSONフォーマットでデーターを送ります。
 
 ```javascript
-{"d1":データー1, "d2":データー2, "d3":データー3, }
+{"d1":データー1, "d2":データー2, "d3":データー3, ...}
 ```
 
-センサーデーターを上のようなJSONフォーマットにしてmsg.payloadにセットし、
-Ambientノードに送信してください。
+センサーデーターを上のようなJSONフォーマットにしてmsg.payloadにセットし、Ambientノードに送信してください。
 
 ## データーの確認
 
