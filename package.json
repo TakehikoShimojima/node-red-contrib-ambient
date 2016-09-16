@@ -1,0 +1,26 @@
+{
+  "name": "node-red-contrib-ambient",
+  "version": "0.0.1",
+  "description": "Ambient Node to send data to Ambient. Ambient is a cloud service for IoT, Internet of Things. It receives sensor data, stores them and visualize them.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TakehikoShimojima/node-red-contrib-ambient.git"
+  },
+  "keywords": [
+    "node-red",
+    "Ambient"
+  ],
+  "node-red": {
+    "nodes": {
+      "Ambient": "ambient.js"
+    }
+  },
+  "author": "Takehiko Shimojima",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.74.0"
+  }
+}
