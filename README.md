@@ -1,4 +1,4 @@
-# ambient-lib Ambientのnode.jsライブラリー
+# node-red-contrib-ambient Node-REDのAmbientノード
 
 ## Ambient
 [Ambient](https://ambidata.io)はIoTクラウドサービスで、センサーデーターを受信し、蓄積し、可視化(グラフ化)します。
